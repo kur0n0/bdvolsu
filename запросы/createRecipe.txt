@@ -1,0 +1,4 @@
+CREATE TABLE Recipe(
+    id_dish INT REFERENCES dish(id),
+    id_product INT REFERENCES product(id)
+)

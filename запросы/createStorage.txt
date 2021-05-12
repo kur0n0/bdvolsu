@@ -1,0 +1,4 @@
+CREATE TABLE Storage(
+    id_product INT REFERENCES product(id),
+    quantity INT NOT NULL
+)

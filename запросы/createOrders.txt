@@ -1,0 +1,4 @@
+CREATE TABLE Orders (
+    id_product INT REFERENCES product(id),
+    quantity INT NOT NULL 
+)
